@@ -28,13 +28,13 @@ def jalan(z):
 
 
 time.sleep(0.5)
-user = raw_input('[💀] Target Username/ID/Email >>?? ')
+user = raw_input('[⚠️✔] Target Username/ID/Email >>?? ')
 time.sleep(0.8)
-wrdlstFileName = raw_input('\n[💀] Wordlist if you dont have Type Passo.txt >> ')
+wrdlstFileName = raw_input('\n[✔⚠️] Wordlist if you dont have Type Passo.txt >> ')
 try:
     wordlist = open(wrdlstFileName, 'r')
 except FileNotFoundError:
-    print ('\n[!] File Not Found!')
+    print ('\n[!] File Not Found type Pass.txt!')
     exit()
 
 time.sleep(0.8)

@@ -1,5 +1,4 @@
 #!/usr/bin/python
-#ff0000
 # -*- coding: utf-8 -*-
         
         
